@@ -1,0 +1,20 @@
+
+If you want to run the app locally, do the following:
+1-Rename app/crashlytics.properties.sample to app/crashlytics.properties after downloading
+2-Import the project in your IDE (we use gradle to build)
+3-If you don't have fabric account-
+i. SignUp for fabric
+ii.Install Fabric on android studio
+iii.Create organization in your fabric account.(https://fabric.io/dashboard)
+iv.Install Twitter Kit and Crashlytics
+
+v.In app/crashlytics.properties file,Fill in your keys of twitter kit and API secret and keys. Check the kits page(https://fabric.io/kits) for installation instructions that will include your Fabric keys.
+(HINT: Go to https://fabric.io/settings/organizations for kets of twitterkit and API)
+
+4-If you have a Fabric account
+i.Install Twitter Kit and Crashlytics
+ii.In app/crashlytics.properties file,Fill in your keys of twitter kit and API secret and keys. Check the kits page(https://fabric.io/kits) for installation instructions that will include your Fabric keys.
+(HINT: Go to https://fabric.io/settings/organizations for kets of twitterkit and API)
+5.For MoPub, you need to sign up and generate a Ad Unit id.
+6.Add that id to app/crashlytics.properties
+7.Run it
